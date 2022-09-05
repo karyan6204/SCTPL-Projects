@@ -13,7 +13,7 @@ html,body{
 .main1{
     height: 100%;
     width: 100%;
-    background-image: url(images/background-image.jpg);
+    background-image: url(images/background-image.jpeg);
     background-size: cover;
 }
 #navbar {
@@ -29,7 +29,16 @@ html,body{
 }
 #navbar ul li {
     list-style: none;
-    padding: 22px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#navbar ul li:hover{
+    color: white;
+    background-color: rgb(88, 73, 255);
 }
 .heading1{
     display: flex;
